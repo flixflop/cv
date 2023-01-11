@@ -2,91 +2,80 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>My Website</title>
+        <link rel="stylesheet" href="./css/styles2.css">
+        <link rel="icon" href="./images/icon.jpg">
+        <title>Hi I am Felix</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
     </head>
     <body>
-        <table cellspacing="20">
-            <tbody>
-                <tr>
-                    <td><img src="images\far_cry_3__blood_dragon.jpg", alt="Felix profile picture", width="300", height="200"></td>
-                    <td>
-                        <h1>Felix Haag</h1>
-                        <p>
-                            <em>Risk Manager at Swiss Life Asset Managers Germany</em>
-                        </p>
-                        <p>
-                            Hi, I am Felix Haag a Risk Manager and Data Analyst for the <strong><a href="https://am-de-lifenet.swisslife.com/">Swiss Life Asset Managers</a></strong>.
-                        </p>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
+        <div class="top-container">
+            <img class="top-cloud" src="./images/cloud.png" alt="cloud-image">
+            <h1>I'm Felix</h1>
+            <h2>a risk manager & data analyst.</h2>
+            <img class="bottom-cloud" src="./images/cloud.png" alt="cloud-image">
+            <img dispaly="block" src="./images/mountain.png" alt="mountain-image">
+        </div>
         
-        <hr size="2", noshade>
-        <h3>Books and Articles</h3>
-            <ul>
-                <li>Bla</li>
-                <li>Blub</li>
-            </ul>
+        <div class="middle-container">
+            <div class="profile">
+                <h2>Hello.</h2>
+                <img class="profile-pic" src="./images/profile_pic.jpg" alt="profile-picture">
+                <p class="intro">My name is Felix. I have a background in pyhsics, find engineering problems rather interesting, enjoy watching sports and doing usefule things in code.</p>
+            </div>
+            <hr>
+            <div class="skills">
+                <h2>My Skills.</h2>
+                <div class="skill-row">
+                    <img class="comp-image" src="./images/computer.png" alt="computer-image">
+                    <h3>Hacking</h3>
+                    <p class="code-skill-desc">
+                        I started my coding journey around 13 years old because I wanted to make my own games.
+                        However, I couldn't get the C++ tutorial to work because I had no idea what the command line 
+                        or the compiler was. So I gave up my passion for about a decade.<br>
+                        During my undergraduate in physics the old spark reignited - mainly because it greatly helped
+                        with analysing the data for the experimental physics labortory experiments.
+                        Throughout my graduate program in applied and engineering physics I got much more exposure to 
+                        a variety of usecases for programming including image and data processing, simulation and 
+                        statistical analysis.
+                        For my PhD I heavily relied on Python for data transformation, analysis and image generation (
+                        a lot of which ended up in articles or my <a href="https://mediatum.ub.tum.de/1634413">thesis</a>).
+                        It was this journey (and my laziness) which made me realize how fun it can be to automate boring 
+                        stuff with the computer.
+                        Eventually, this turned into my day-to-day job which I am now doing as a risk manager and 
+                        data analyst.
+                        Nevertheless, I would describe myself more as a hacker than a coder or even software engineer.
+                    </p>
+                </div>
+                <div class="skill-row">
+                    <img class="chillie-image" src="./images/chillies.png" alt="hot-image">
+                    <h3>Watching Football</h3>
+                    <p class="chillie-skill-desc">
+                        Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel eu, rutrum nam.
+                        Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.
+                        Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.
+                        Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.
+                    </p>
+                </div>
+            </div>
         <hr>
-
-        <h3>Work Experience</h3>
-        <table cellspacing="10">
-            <thead align="left">
-                <tr>
-                    <th>Dates</th>
-                    <th>Position</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>2022</td>
-                    <td>Risk Manager & Data Analyst</td>
-                </tr>
-                <tr>
-                    <td>2018-2022</td>
-                    <td>Researcher at the Technical University Munich</td>
-                </tr>
-            </tbody>
-        </table>
-        <hr>
-
-        <h3>Skills</h3>
-        <table cellspacing="10">
-            <tbody>
-                <tr>
-                    <td>
-                        <table>
-                            <tr>
-                                <td>Python</td>
-                                <td>🔆🔆🔆</td>
-                            </tr>
-                            <tr>
-                                <td>Web Development - HTML, CSS, JS</td>
-                                <td>🔆</td>
-                            </tr>
-                        </table>
-                    </td>
-                    <td>
-                        <table>
-                            <tr>
-                                <td>Azure</td>
-                                <td>🔆🔆</td>
-                            </tr>
-                            <tr>
-                                <td>Web Development - HTML, CSS, JS</td>
-                                <td>🔆</td>
-                            </tr>
-                        </table>
-                    </td>
-                </tr>
-            </tbody>
-
-        </table>
-
-
-        <hr>
-        <h3><a href="hobbies.html">Hobbies</a></h3>
-        <h3><a href="contact_info.html">Contact Information</a></h3>
+            <div class="contact-me">
+                <h2>Get In Touch</h2>
+                <h3>If you are just as lazy as I am...</h3>
+                <p>
+                    On second thought, what would two lazy people even talk about?
+                    If you have an idea, hit me up.
+                </p>
+                <a class="btn" href="mailto:name@email.com">Contact Me</a>
+            </div>
+        </div>
+  
+  
+        <div class="bottom-container">
+            <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+            <a href="https://am-de-lifenet.swisslife.com/de/home.html">SL AM</a>
+            <p class="copyright">© Felix Haag.</p>
+        </div>
+  
     </body>
 </html>
